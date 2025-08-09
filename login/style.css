@@ -1,0 +1,73 @@
+
+
+section.login{
+    background-image: url(image2.jpg);
+    height: 400px;
+    width: 600px;
+    background-position: center;
+    display: flex;
+    border-radius: 15px;
+    background-size: cover;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+form{
+    background: rgb(255, 225, 225);
+    box-sizing: border-box;
+    width: 300px;
+    padding: 40px;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+label{
+    font-size: 14px;
+    border: 100px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(53, 50, 50);
+    border-radius: 15px;
+}
+
+input{
+    width: 200px;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 10px 0px;
+    outline: none;
+    border-radius: 15px;
+}
+
+input:focus{
+    border-bottom: 2px solid black;
+}
+
+button{
+    margin-top: 15px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 25px;
+    box-shadow: 2px 2px 0px black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+button:hover{
+    background: #5c0692c9;
+    color: #333;
+}
